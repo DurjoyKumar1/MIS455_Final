@@ -108,3 +108,11 @@
   .country-card p {
     margin-bottom: 6px;
   }
+
+  footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+  }
