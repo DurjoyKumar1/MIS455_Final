@@ -35,6 +35,8 @@ function fetchCountry() {
 
         resultDiv.appendChild(card);
       });
-    });
+    }).catch(error => {
+        resultDiv.innerHTML = `<p>Error: ${error.message}</p>`;
+      });
 
 }
