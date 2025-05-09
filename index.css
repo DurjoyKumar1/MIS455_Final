@@ -18,3 +18,19 @@
     max-width: 1000px;
     margin: 0 auto;
   }
+
+  header {
+    background: linear-gradient(90deg, #004080, #0059b3);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  header h1 {
+    margin-bottom: 5px;
+    font-size: 2rem;
+  }
